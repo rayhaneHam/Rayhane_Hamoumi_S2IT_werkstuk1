@@ -14,6 +14,8 @@ class PersoonClass {
     var image:String
     var telefoonnummer:String
     var adres:String
+    var coordinaatX: Double
+    var coordinaatY: Double
     
     init() {
         naam = ""
@@ -21,14 +23,18 @@ class PersoonClass {
         image = ""
         telefoonnummer = ""
         adres = ""
+        coordinaatX = 0
+        coordinaatY = 0
     }
     
-    init(naam: String, voornaam: String, image: String, telefoonnummer: String, adres: String) {
+    init(naam: String, voornaam: String, image: String, telefoonnummer: String, adres: String, coordinaatX: Double, coordinaatY: Double) {
         
         self.naam = naam
         self.voornaam = voornaam
         self.image = image
         self.telefoonnummer = telefoonnummer
         self.adres = adres
+        self.coordinaatX = coordinaatX
+        self.coordinaatY = coordinaatY
     }
 }

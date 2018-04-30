@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import MapKit
+import CoreLocation
 
-class PersoonDetail: UIViewController {
+class PersoonDetail: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
+
     
     var DetailPersoon = PersoonClass()
     
@@ -19,6 +22,10 @@ class PersoonDetail: UIViewController {
     @IBOutlet weak var telefoonnummer: UILabel!
     @IBOutlet weak var adres: UILabel!
     
+    @IBOutlet var kaart: MKMapView!
+    
+    let Kaart = CLLocationManager()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +35,11 @@ class PersoonDetail: UIViewController {
         self.adres.text = DetailPersoon.adres
         self.image.image = UIImage(named: DetailPersoon.image)
 
-        // Do any additional setup after loading the view.
+        let PersoonKaart = MKPointAnnotation()
+        PersoonKaart.coordinate = CLLocationCoordinate2D(latitude: DetailPersoon.coordinaatX, longitude: DetailPersoon.coordinaatY)
+        self.kaart.addAnnotation(PersoonKaart)
+        PersoonKaart.title = DetailPersoon.naam
+        // Do an additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {

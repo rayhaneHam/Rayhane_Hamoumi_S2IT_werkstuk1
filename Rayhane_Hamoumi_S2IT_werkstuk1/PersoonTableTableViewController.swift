@@ -15,7 +15,7 @@ class PersoonTableTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let Persoon1 = PersoonClass(naam: "Rayhane", voornaam: "Hamoumi", image: "Ray_Ragnarsson", telefoonnummer: "0455667788", adres: "Brussel")
+        let Persoon1 = PersoonClass(naam: "Rayhane", voornaam: "Hamoumi", image: "Ray_Ragnarsson", telefoonnummer: "0455667788", adres: "Brussel", coordinaatX: 50.836581, coordinaatY: 4.308187)
         PersoonList.append(Persoon1)
     }
 
