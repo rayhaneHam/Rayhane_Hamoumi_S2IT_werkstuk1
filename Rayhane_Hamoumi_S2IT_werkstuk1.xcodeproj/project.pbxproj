@@ -14,6 +14,8 @@
 		B526AF8820974CDE0033CCCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B526AF8620974CDE0033CCCC /* LaunchScreen.storyboard */; };
 		B526AF9320974CDE0033CCCC /* Rayhane_Hamoumi_S2IT_werkstuk1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526AF9220974CDE0033CCCC /* Rayhane_Hamoumi_S2IT_werkstuk1Tests.swift */; };
 		B526AF9E20974CDF0033CCCC /* Rayhane_Hamoumi_S2IT_werkstuk1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526AF9D20974CDF0033CCCC /* Rayhane_Hamoumi_S2IT_werkstuk1UITests.swift */; };
+		B526AFAC2097503E0033CCCC /* PersoonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526AFAB2097503E0033CCCC /* PersoonClass.swift */; };
+		B526AFAE209755E90033CCCC /* PersoonTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526AFAD209755E90033CCCC /* PersoonTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B526AF9920974CDF0033CCCC /* Rayhane_Hamoumi_S2IT_werkstuk1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Rayhane_Hamoumi_S2IT_werkstuk1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B526AF9D20974CDF0033CCCC /* Rayhane_Hamoumi_S2IT_werkstuk1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rayhane_Hamoumi_S2IT_werkstuk1UITests.swift; sourceTree = "<group>"; };
 		B526AF9F20974CDF0033CCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B526AFAB2097503E0033CCCC /* PersoonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoonClass.swift; sourceTree = "<group>"; };
+		B526AFAD209755E90033CCCC /* PersoonTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoonTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		B526AF7C20974CD70033CCCC /* Rayhane_Hamoumi_S2IT_werkstuk1 */ = {
 			isa = PBXGroup;
 			children = (
+				B526AFAB2097503E0033CCCC /* PersoonClass.swift */,
+				B526AFAD209755E90033CCCC /* PersoonTableTableViewController.swift */,
 				B526AF7D20974CD70033CCCC /* AppDelegate.swift */,
 				B526AF7F20974CD70033CCCC /* ViewController.swift */,
 				B526AF8120974CD70033CCCC /* Main.storyboard */,
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B526AF8020974CD70033CCCC /* ViewController.swift in Sources */,
+				B526AFAE209755E90033CCCC /* PersoonTableTableViewController.swift in Sources */,
+				B526AFAC2097503E0033CCCC /* PersoonClass.swift in Sources */,
 				B526AF7E20974CD70033CCCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
