@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B526AF7E20974CD70033CCCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526AF7D20974CD70033CCCC /* AppDelegate.swift */; };
-		B526AF8020974CD70033CCCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526AF7F20974CD70033CCCC /* ViewController.swift */; };
 		B526AF8320974CD70033CCCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B526AF8120974CD70033CCCC /* Main.storyboard */; };
 		B526AF8520974CDE0033CCCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B526AF8420974CDE0033CCCC /* Assets.xcassets */; };
 		B526AF8820974CDE0033CCCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B526AF8620974CDE0033CCCC /* LaunchScreen.storyboard */; };
@@ -16,6 +15,7 @@
 		B526AF9E20974CDF0033CCCC /* Rayhane_Hamoumi_S2IT_werkstuk1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526AF9D20974CDF0033CCCC /* Rayhane_Hamoumi_S2IT_werkstuk1UITests.swift */; };
 		B526AFAC2097503E0033CCCC /* PersoonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526AFAB2097503E0033CCCC /* PersoonClass.swift */; };
 		B526AFAE209755E90033CCCC /* PersoonTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526AFAD209755E90033CCCC /* PersoonTableTableViewController.swift */; };
+		B526AFB0209762450033CCCC /* PersoonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526AFAF209762450033CCCC /* PersoonDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 /* Begin PBXFileReference section */
 		B526AF7A20974CD70033CCCC /* Rayhane_Hamoumi_S2IT_werkstuk1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rayhane_Hamoumi_S2IT_werkstuk1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B526AF7D20974CD70033CCCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B526AF7F20974CD70033CCCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B526AF8220974CD70033CCCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B526AF8420974CDE0033CCCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B526AF8720974CDE0033CCCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		B526AF9F20974CDF0033CCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B526AFAB2097503E0033CCCC /* PersoonClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoonClass.swift; sourceTree = "<group>"; };
 		B526AFAD209755E90033CCCC /* PersoonTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoonTableTableViewController.swift; sourceTree = "<group>"; };
+		B526AFAF209762450033CCCC /* PersoonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoonDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				B526AFAB2097503E0033CCCC /* PersoonClass.swift */,
 				B526AFAD209755E90033CCCC /* PersoonTableTableViewController.swift */,
 				B526AF7D20974CD70033CCCC /* AppDelegate.swift */,
-				B526AF7F20974CD70033CCCC /* ViewController.swift */,
+				B526AFAF209762450033CCCC /* PersoonDetail.swift */,
 				B526AF8120974CD70033CCCC /* Main.storyboard */,
 				B526AF8420974CDE0033CCCC /* Assets.xcassets */,
 				B526AF8620974CDE0033CCCC /* LaunchScreen.storyboard */,
@@ -262,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B526AF8020974CD70033CCCC /* ViewController.swift in Sources */,
 				B526AFAE209755E90033CCCC /* PersoonTableTableViewController.swift in Sources */,
+				B526AFB0209762450033CCCC /* PersoonDetail.swift in Sources */,
 				B526AFAC2097503E0033CCCC /* PersoonClass.swift in Sources */,
 				B526AF7E20974CD70033CCCC /* AppDelegate.swift in Sources */,
 			);
