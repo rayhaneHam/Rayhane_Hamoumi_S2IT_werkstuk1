@@ -15,13 +15,14 @@ class PersoonTableTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let Persoon1 = PersoonClass(naam: "Rayhane", voornaam: "Hamoumi", image: "Ray_Ragnarsson", telefoonnummer: "0455667788", adres: "Brussel", coordinaatX: 50.836581, coordinaatY: 4.308187)
+        let Persoon1 = PersoonClass(naam: "Rayhane", voornaam: "Hamoumi", image: "Ray_Ragnarsson", telefoonnummer: "0455667788", adres: "Brussel", coordinaatX: 50.7798, coordinaatY: 4.24368)
         PersoonList.append(Persoon1)
-        let Persoon2 = PersoonClass(naam: "Jens", voornaam: "De Kuiper", image: "Ray_Ragnarsson", telefoonnummer: "0458900065", adres: "Brussel", coordinaatX: 50.73757, coordinaatY: 4.23251)
+        let Persoon2 = PersoonClass(naam: "Jens", voornaam: "De Kuiper", image: "Jens", telefoonnummer: "0458900065", adres: "Brussel", coordinaatX: 51.21543, coordinaatY: 2.928656)
         PersoonList.append(Persoon2)
-        let Persoon3 = PersoonClass(naam: "Lagertha", voornaam: "Lothbrok", image: "Ray_Ragnarsson", telefoonnummer: "0456793398", adres: "Brussel", coordinaatX: 50.927251, coordinaatY: 4.425787
-)
+        let Persoon3 = PersoonClass(naam: "Lagertha", voornaam: "Lothbrok", image: "Lagertha", telefoonnummer: "0456793398", adres: "Brussel", coordinaatX: 50.454241, coordinaatY: 3.956659)
         PersoonList.append(Persoon3)
+        let Persoon4 = PersoonClass(naam: "Steve", voornaam: "Jobs", image: "Steve_Jobs", telefoonnummer: "046900388", adres: "Brussel", coordinaatX: 50.159604, coordinaatY: 5.222166)
+        PersoonList.append(Persoon4)
     }
 
     override func didReceiveMemoryWarning() {

@@ -186,24 +186,30 @@
         <!--Map-->
         <scene sceneID="N8a-xr-wfd">
             <objects>
-                <viewController id="ZY7-Hc-G7c" sceneMemberID="viewController">
+                <viewController id="ZY7-Hc-G7c" customClass="GroteKaart" customModule="Rayhane_Hamoumi_S2IT_werkstuk1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hr3-GC-P8m">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="VrQ-i4-hkP">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zMJ-dg-HCb">
                                 <rect key="frame" x="0.0" y="44" width="375" height="685"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Hr3-GC-P8m" id="xjR-jN-9EI"/>
+                                </connections>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="pyQ-Xw-u5m"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="Map" id="Gx1-uC-Pdb"/>
+                    <connections>
+                        <outlet property="GroteMap" destination="zMJ-dg-HCb" id="ZfK-hK-Bqz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="10l-i2-AAz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="156" y="894.82758620689663"/>
+            <point key="canvasLocation" x="156" y="1216"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="B9k-ng-osm">
@@ -249,6 +255,6 @@
         <image name="Ray_Ragnarsson" width="1400" height="650"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="H9H-zK-dan"/>
+        <segue reference="i0E-ts-Miw"/>
     </inferredMetricsTieBreakers>
 </document>

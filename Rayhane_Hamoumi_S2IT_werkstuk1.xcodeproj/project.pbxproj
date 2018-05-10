@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AD17979120A4862900D040E9 /* PersoonImgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17979020A4862900D040E9 /* PersoonImgViewController.swift */; };
+		AD17979320A4CD4400D040E9 /* GroteKaart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD17979220A4CD4400D040E9 /* GroteKaart.swift */; };
 		B526AF7E20974CD70033CCCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B526AF7D20974CD70033CCCC /* AppDelegate.swift */; };
 		B526AF8320974CD70033CCCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B526AF8120974CD70033CCCC /* Main.storyboard */; };
 		B526AF8520974CDE0033CCCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B526AF8420974CDE0033CCCC /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		AD17979020A4862900D040E9 /* PersoonImgViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersoonImgViewController.swift; sourceTree = "<group>"; };
+		AD17979220A4CD4400D040E9 /* GroteKaart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroteKaart.swift; sourceTree = "<group>"; };
 		B526AF7A20974CD70033CCCC /* Rayhane_Hamoumi_S2IT_werkstuk1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rayhane_Hamoumi_S2IT_werkstuk1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B526AF7D20974CD70033CCCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B526AF8220974CD70033CCCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				B526AF7D20974CD70033CCCC /* AppDelegate.swift */,
 				B526AFAF209762450033CCCC /* PersoonDetail.swift */,
 				B526AF8120974CD70033CCCC /* Main.storyboard */,
+				AD17979220A4CD4400D040E9 /* GroteKaart.swift */,
 				AD17979020A4862900D040E9 /* PersoonImgViewController.swift */,
 				B526AF8420974CDE0033CCCC /* Assets.xcassets */,
 				B526AF8620974CDE0033CCCC /* LaunchScreen.storyboard */,
@@ -270,6 +273,7 @@
 				B526AFB0209762450033CCCC /* PersoonDetail.swift in Sources */,
 				B526AFAC2097503E0033CCCC /* PersoonClass.swift in Sources */,
 				B526AF7E20974CD70033CCCC /* AppDelegate.swift in Sources */,
+				AD17979320A4CD4400D040E9 /* GroteKaart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

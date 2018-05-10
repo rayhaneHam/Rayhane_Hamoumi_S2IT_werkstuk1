@@ -2,7 +2,7 @@
 //  PersoonImgViewController.swift
 //  Rayhane_Hamoumi_S2IT_werkstuk1
 //
-//  Created by muge sonmez on 10/05/18.
+//  Created by Hamoumi Rayhane on 10/05/18.
 //  Copyright © 2018 Rayhane_Hamoumi. All rights reserved.
 //
 
