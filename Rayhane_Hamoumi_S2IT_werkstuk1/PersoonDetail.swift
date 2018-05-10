@@ -15,8 +15,9 @@ class PersoonDetail: UIViewController, CLLocationManagerDelegate, MKMapViewDeleg
     
     var DetailPersoon = PersoonClass()
     
+  
     
-    @IBOutlet weak var image: UIImageView!
+    @IBOutlet var images: UIImageView!
     @IBOutlet weak var naam: UILabel!
     @IBOutlet weak var voornaam: UILabel!
     @IBOutlet weak var telefoonnummer: UILabel!
@@ -33,12 +34,13 @@ class PersoonDetail: UIViewController, CLLocationManagerDelegate, MKMapViewDeleg
         self.voornaam.text = DetailPersoon.voornaam
         self.telefoonnummer.text = DetailPersoon.telefoonnummer
         self.adres.text = DetailPersoon.adres
-        self.image.image = UIImage(named: DetailPersoon.image)
+        self.images.image = UIImage(named: DetailPersoon.image)
 
         let PersoonKaart = MKPointAnnotation()
         PersoonKaart.coordinate = CLLocationCoordinate2D(latitude: DetailPersoon.coordinaatX, longitude: DetailPersoon.coordinaatY)
         self.kaart.addAnnotation(PersoonKaart)
         PersoonKaart.title = DetailPersoon.naam
+        PersoonKaart.subtitle = DetailPersoon.voornaam
         // Do an additional setup after loading the view.
     }
 
@@ -47,15 +49,10 @@ class PersoonDetail: UIViewController, CLLocationManagerDelegate, MKMapViewDeleg
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+       if let foto = segue.destination as? PersoonImgViewController {
+            foto.Fotodet = self.images.image        }
     }
-    */
+ 
 
 }

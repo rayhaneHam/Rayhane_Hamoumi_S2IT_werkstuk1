@@ -16,7 +16,6 @@ class PersoonClass {
     var adres:String
     var coordinaatX: Double
     var coordinaatY: Double
-    
     init() {
         naam = ""
         voornaam = ""

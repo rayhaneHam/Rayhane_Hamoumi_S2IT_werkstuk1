@@ -17,6 +17,11 @@ class PersoonTableTableViewController: UITableViewController {
 
         let Persoon1 = PersoonClass(naam: "Rayhane", voornaam: "Hamoumi", image: "Ray_Ragnarsson", telefoonnummer: "0455667788", adres: "Brussel", coordinaatX: 50.836581, coordinaatY: 4.308187)
         PersoonList.append(Persoon1)
+        let Persoon2 = PersoonClass(naam: "Jens", voornaam: "De Kuiper", image: "Ray_Ragnarsson", telefoonnummer: "0458900065", adres: "Brussel", coordinaatX: 50.73757, coordinaatY: 4.23251)
+        PersoonList.append(Persoon2)
+        let Persoon3 = PersoonClass(naam: "Lagertha", voornaam: "Lothbrok", image: "Ray_Ragnarsson", telefoonnummer: "0456793398", adres: "Brussel", coordinaatX: 50.927251, coordinaatY: 4.425787
+)
+        PersoonList.append(Persoon3)
     }
 
     override func didReceiveMemoryWarning() {
